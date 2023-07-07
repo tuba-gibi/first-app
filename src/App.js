@@ -1,14 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
-import Homepage from './components/Pictures';
+
 import "bootstrap/dist/css/bootstrap.css";
-import "./styles/style.css"
+import Homepage from './pages/Homepage';
 
 
 function App() {
   return (
     <div className="App">
       <Homepage/>
+  
 
     </div>
   )
